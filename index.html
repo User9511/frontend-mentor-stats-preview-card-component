@@ -9,28 +9,27 @@
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
-    <div class="outer-container">
-      <div class="hero-img">
+    <main class="outer-container">
+      <!-- <div class="hero-img">
         <div class="hero-img-overlay"></div>
-      </div>
-      <div class="inner-container">
-        <h1>Get <span> insights </span> that help your business grow.</h1>
+      </div> -->
+
+      <picture>
+        <source media="(max-width: 500px)" srcset="./images/image-header-mobile.jpg" />
+        <source media="(max-width: 1100px)" srcset="./images/image-header-desktop.jpg" />
+
+        <img src="./images/image-header-mobile.jpg" alt="" />
+      </picture>
+
+      <!-- <div class="inner-container">
+        <h1>Get <span class="insights"> insights </span> that help your business grow.</h1>
         <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
-        <footer>
-          <div class="stat">
-            <h2>10k+</h2>
-            <p>companies</p>
-          </div>
-          <div class="stat">
-            <h2>314</h2>
-            <p>templates</p>
-          </div>
-          <div class="stat">
-            <h2>12m+</h2>
-            <p>queries</p>
-          </div>
-        </footer>
-      </div>
-    </div>
+        <ul>
+          <li><span class="stat">10k+</span> companies</li>
+          <li><span class="stat">314</span>templates</li>
+          <li><span class="stat">12m+</span>queries</li>
+        </ul>
+      </div> -->
+    </main>
   </body>
 </html>
