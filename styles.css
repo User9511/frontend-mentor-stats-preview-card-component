@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: hsl(277, 64%, 61%);
+  --Soft-violet-overlay: hsla(277, 82%, 27%, 0.598);
+  --White: hsl(0, 0%, 100%);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+
+  --step--2: clamp(0.7rem, calc(0.75rem + -0.06vw), 0.74rem);
+  --step--1: clamp(0.83rem, calc(0.8rem + 0.16vw), 0.94rem);
+  --step-0: clamp(0.94rem, calc(0.83rem + 0.47vw), 1.25rem);
+  --step-1: clamp(1.06rem, calc(0.84rem + 0.92vw), 1.67rem);
+  --step-2: clamp(1.19rem, calc(0.82rem + 1.55vw), 2.22rem);
+  --step-3: clamp(1.34rem, calc(0.76rem + 2.44vw), 2.96rem);
+  --step-4: clamp(1.5rem, calc(0.64rem + 3.67vw), 3.95rem);
+  --step-5: clamp(1.69rem, calc(0.43rem + 5.37vw), 5.26rem);
+
+  --space-m: clamp(1.44rem, calc(1.28rem + 0.66vw), 1.88rem);
+  --space-l: clamp(1.88rem, calc(1.65rem + 0.94vw), 2.5rem);
+  --space-xl: clamp(2.81rem, calc(2.48rem + 1.41vw), 3.75rem);
+}
+
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--Very-dark-blue);
+  color: var(--White);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer-container {
+  background-color: var(--Dark-desaturated-blue);
+  margin: var(--space-l);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.inner-container {
+  padding: var(--space-m);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-img {
+  background: url(./images/image-header-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 0.5rem 0.5rem 0 0;
+  min-height: 15rem;
+}
+
+.hero-img-overlay {
+  position: absolute;
+  background-color: var(--Soft-violet-overlay);
+  width: 100%;
+  height: 100%;
+}
+
+span {
+  color: var(--Soft-violet);
+}
+
+h1 {
+  font-size: var(--step-5);
+}
+
+h2 {
+  font-size: var(--step-3);
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  color: var(--Slightly-transparent-white);
+  line-height: 1.6;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.stat {
+  font-size: var(--step--2);
+}
+
+.stat p {
+  letter-spacing: 1px;
+}
+
+/* Desktop View */
+@media screen and (min-width: 768px) {
+  .outer-container {
+    max-width: 60rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .inner-container {
+    padding: var(--space-xl);
+  }
+
+  .hero-img {
+    background: url(./images/image-header-desktop.jpg);
+    background-size: cover;
+    position: relative;
+    border-radius: 0 0.5rem 0.5rem 0;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: var(--step-2);
+  }
+
+  h2 {
+    font-size: var(--step-0);
+  }
+
+  p {
+    color: var(--Slightly-transparent-white);
+    line-height: 1.8;
+    max-width: 90%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 4rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+  }
+}
