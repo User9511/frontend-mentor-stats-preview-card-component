@@ -10,16 +10,13 @@
   </head>
   <body>
     <main class="outer-container">
-      <!-- <div class="hero-img">
-        <div class="hero-img-overlay"></div>
-      </div> -->
-
-      <picture>
-        <img src="images/image-header-mobile.jpg" alt="" />
-        <source media="(min-width: 500px)" srcset="images/image-header-desktop.jpg" />
-      </picture>
-
-      <!-- <div class="inner-container">
+      <div class="image-container">
+        <picture>
+          <source srcset="./images/image-header-desktop.jpg" media="(min-width: 48rem)" />
+          <img src="./images/image-header-mobile.jpg" alt="women working" />
+        </picture>
+      </div>
+      <div class="text-container">
         <h1>Get <span class="insights"> insights </span> that help your business grow.</h1>
         <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
         <ul>
@@ -27,7 +24,7 @@
           <li><span class="stat">314</span>templates</li>
           <li><span class="stat">12m+</span>queries</li>
         </ul>
-      </div> -->
+      </div>
     </main>
   </body>
 </html>
