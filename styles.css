@@ -46,6 +46,8 @@ img {
   display: block;
   max-width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
+  height: 100%;
+  object-fit: cover;
 }
 
 picture {
@@ -62,6 +64,7 @@ img {
   border-radius: 0.5rem;
   text-align: center;
   max-width: 30rem;
+  min-width: 15rem;
 }
 
 .image-container {
@@ -116,6 +119,7 @@ ul li {
   font-size: var(--step-3);
   color: var(--White);
   font-family: "Lexend Deca", sans-serif;
+  font-weight: bold;
 }
 
 /* Desktop View */
@@ -125,7 +129,6 @@ ul li {
     text-align: left;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
   }
 
   .text-container {
@@ -159,12 +162,10 @@ ul li {
   }
 
   ul li {
-    font-family: "Inter", sans-serif;
     font-size: var(--step--2);
   }
 
   .stat {
     font-size: var(--step-0);
-    color: var(--White);
   }
 }
