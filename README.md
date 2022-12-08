@@ -1,3 +1,8 @@
+### Links
+
+- Solution URL: [https://smgy94.github.io/frontend-mentor-stats-preview-card-component/](https://your-solution-url.com)
+- Live Site URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-kmhE2tkvrV](https://your-live-site-url.com)
+
 # Frontend Mentor - Stats preview card component solution
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -20,11 +25,6 @@ Users should be able to:
 
 ![](./design/screenshot01.png)
 ![](./design/screenshot02.png)
-
-### Links
-
-- Solution URL: [https://smgy94.github.io/frontend-mentor-stats-preview-card-component/](https://your-solution-url.com)
-- Live Site URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-kmhE2tkvrV](https://your-live-site-url.com)
 
 ### Built with
 
