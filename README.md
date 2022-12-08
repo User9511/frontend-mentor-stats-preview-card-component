@@ -1,7 +1,7 @@
 ### Links
 
-- Solution URL: [https://smgy94.github.io/frontend-mentor-stats-preview-card-component/](https://smgy94.github.io/frontend-mentor-stats-preview-card-component/)
-- Live Site URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-kmhE2tkvrV](https://www.frontendmentor.io/solutions/stats-preview-card-component-kmhE2tkvrV)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-kmhE2tkvrV](https://www.frontendmentor.io/solutions/stats-preview-card-component-kmhE2tkvrV)
+- Live Site URL: [https://smgy94.github.io/frontend-mentor-stats-preview-card-component/](https://smgy94.github.io/frontend-mentor-stats-preview-card-component/)
 
 # Frontend Mentor - Stats preview card component solution
 
