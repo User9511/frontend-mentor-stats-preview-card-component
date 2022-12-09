@@ -50,14 +50,6 @@ img {
   object-fit: cover;
 }
 
-picture {
-  background-color: var(--Soft-violet-overlay);
-}
-
-img {
-  opacity: 25%;
-}
-
 .outer-container {
   background-color: var(--Dark-desaturated-blue);
   margin: var(--space-l);
@@ -69,6 +61,20 @@ img {
 
 .image-container {
   border-radius: 0.5rem 0.5rem 0 0;
+  display: inherit;
+  position: relative;
+  width: 100%;
+  background-color: hsl(277, 64%, 61%);
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  border-radius: 0 10px 10px 0;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
 }
 
 .text-container {
